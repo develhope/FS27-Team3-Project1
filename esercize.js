@@ -1,4 +1,5 @@
-const idAurora = {
+const idAurora = [
+  {
     firstName: "aurora",
     surname: "loreti",
     age: 24,
@@ -8,5 +9,6 @@ const idAurora = {
     favoriteVideoGame: "pokemon",
     favoriteFilm: "it",
     favoriteBook: "hunger games",
-    petName: "luna"
-}
+    petName: "luna",
+  }
+];
