@@ -1,4 +1,4 @@
-const idAstrid = [
+const team = [
   {
     firstName: "Astrid",
     surname: "Zelaya",
@@ -13,4 +13,8 @@ const idAstrid = [
   },
 ];
 
+team.sort((a, b) => a.age - b.age);
 
+for (let i = 0; i < team.length; i++) {
+    console.log(`${team[i].firstName} ${team[i].age}`);
+}
